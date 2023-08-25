@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(84, 198, 160);
+    padding: 0;
+    margin: 0;
+    font-family: IBM Plex Mono;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; 
+}
+
+.photo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.text {
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 700px;
+}
+
+
